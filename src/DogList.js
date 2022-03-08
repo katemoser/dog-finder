@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import "./DogList.css";
 
 /**Dog List --> displays the name and photo of each dog
  * 
@@ -9,9 +10,9 @@ import { Link } from "react-router-dom";
  */
 function DogList({ dogs }) {
     return (
-        <div>
+        <div className="DogFinder-List">
             {dogs.map(dog =>
-                <div key={dog.name}>
+                <div className="DogFinder-Dog" key={dog.name}>
                     <Link to={`dogs/${dog.name}`}>
                         <img src={`${dog.src}.jpg`} alt="A dog" />
                     </Link>

@@ -1,0 +1,12 @@
+.DogFinder-NavBar{
+    display: flex;
+    justify-content: space-around;
+    background-color: cadetblue;
+    padding: 1em;
+}
+
+.DogFinder-NavBar a {
+    text-decoration: none;
+    color: bisque;
+    font-size: 1.5em;
+}

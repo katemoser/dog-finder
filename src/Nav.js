@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import "./Nav.css";
 
 /** Navbar for the dogfinder app
  * displays names of dogs as links to their bios

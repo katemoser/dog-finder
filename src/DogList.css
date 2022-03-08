@@ -1,11 +1,11 @@
-.DogFinder-Details{
+.DogFinder-Dog{
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     width: 20em;
     margin: 1em;
 }
 
-.DogFinder-Details img{
+.DogFinder-Dog img{
     border-radius: 10px 10px 0 0;
     width:100%;
 }
